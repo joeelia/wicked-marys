@@ -9,7 +9,9 @@
     />
   </ul>
   <div class="items-center justify-center hidden w-1/3 md:flex">
-    <nuxt-link to="/" v-html="blok.logo"></nuxt-link>
+    <nuxt-link to="/">
+      <img src="~/assets/images/wicked-marys-logo.png" />
+    </nuxt-link>
   </div>
   <ul class="items-center justify-end hidden w-1/3 md:flex">
     <component

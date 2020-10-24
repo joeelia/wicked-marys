@@ -3,7 +3,9 @@
     <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8">
       <div class="flex flex-wrap content-center text-center md:flex-no-wrap ">
         <div class="flex justify-center m-auto">
-           <nuxt-link to="/" v-html="blok.logo"></nuxt-link>
+           <nuxt-link to="/">
+              <img src="~/assets/images/wicked-marys-logo.png" />
+           </nuxt-link>
         </div>
         <div class="flex flex-wrap justify-center max-w-6xl m-auto text-gray-800">
           <component
