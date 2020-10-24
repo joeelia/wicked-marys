@@ -40,7 +40,7 @@ export default {
           <strong>${element.content.name}</strong>
           </br>
           <strong>${element.content.phone}</strong>
-          </br>
+          </br>`,
         position: {
           lat: parseFloat(element.content.latitude),
           lng: parseFloat(element.content.longitude),

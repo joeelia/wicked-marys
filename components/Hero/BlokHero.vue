@@ -82,20 +82,25 @@
             <h2
               class="text-4xl font-medium leading-10 tracking-tight text-white uppercase sm:text-5xl sm:leading-none md:text-7xl"
             >
-              Always fresh.
+              Chicken. Sliders.
               <br />
-              <span>always hot. for you.</span>
+              <span>Seafood. Everything Hot!</span>
             </h2>
           </div>
         </div>
       </div>
-      <div class="relative flex justify-center">
-        <div class="max-w-screen-xl px-4 mx-auto sm:px-6">
+      
+      <div class="relative flex justify-center ">
+       
+        <div class="max-w-screen-xl px-10 pb-20 mx-auto sm:px-6">
+          <div class="absolute inset-y-0 right-0 w-full h-screen bg-orange-300 bg-opacity-25 rounded-full animate-ping"  />
+           <div class="absolute inset-y-0 right-0 w-full h-screen bg-orange-200 bg-opacity-50 rounded-full animate-pulse"  />
           <img
-            class="relative"
-            src="~/assets/images/hot-chicken-slider.png"
+            class="relative z-10"
+            src="~/assets/images/hot-chicken-slider-order.png"
             alt="Fresh Nashville Hot Chicken slider with pickles, boneless chicken thighs, buns and secret sauce"
           />
+          
         </div>
       </div>
     </div>
@@ -104,6 +109,6 @@
 
 <script>
 export default {
-  name: 'BlokHero',
+  name: 'BlokHero'
 }
 </script>
