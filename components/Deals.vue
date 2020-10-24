@@ -13,13 +13,13 @@
       <div class="flex items-center h-full">
         <div class="flex-1 max-w-4xl p-0 mx-auto md:p-10">
           <ul class="grid grid-cols-1 grid-rows-2 gap-4 md:grid-cols-2">
-            <li class="bg-red-300 row-span-2">
+            <li class="bg-orange-300 row-span-2">
               <div class="h-88"></div>
             </li>
-            <li class="bg-red-300">
+            <li class="bg-orange-300">
               <div class="h-88 md:h-48"></div>
             </li>
-            <li class="bg-red-300">
+            <li class="bg-orange-300">
               <div class="h-88 md:h-48"></div>
             </li>
           </ul>

@@ -29,7 +29,7 @@
       />
     </svg>
   </a>
-  <button id="686353761330209738" class="inline-flex items-center px-4 py-2 text-sm font-medium leading-5 text-white truncate transition duration-150 ease-in-out bg-red-600 border border-transparent hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-red-700">
+  <button id="686353761330209738" class="inline-flex items-center px-4 py-2 text-sm font-medium leading-5 text-white truncate transition duration-150 ease-in-out bg-orange-600 border border-transparent hover:bg-orange-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-orange-700">
     <span class="cursor-pointer" data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03" data-glf-ruid="da5cbba8-e8b2-4fd3-a14c-8085c95f1b91" id="glfButton0">
       Order Mary's
     </span> 
@@ -38,7 +38,7 @@
     <button
       @click="showMobileMenu = true"
       type="button"
-      class="inline-flex items-center justify-center p-2 transition duration-150 ease-in-out bg-red-600"
+      class="inline-flex items-center justify-center p-2 transition duration-150 ease-in-out bg-orange-600"
       id="main-menu"
       aria-label="Main menu"
       aria-haspopup="true"
@@ -71,7 +71,7 @@
     v-show="showMobileMenu"
     class="absolute inset-x-0 top-0 z-50 transition origin-top-right transform md:hidden"
     >
-    <div class="h-screen mx-auto bg-red-600">
+    <div class="h-screen mx-auto bg-orange-600">
       <div
         class="absolute top-0 right-0 inline object-none w-8 h-8 mt-2 mr-6"
       >
@@ -119,7 +119,7 @@
         <a
           href="#"
           class="text-3xl font-medium text-white transition duration-150 ease-in-out hover:text-gray-900"
-          >Find a Saroki's</a
+          >Find a Marys's</a
         >
         <a
           href="#"
@@ -129,8 +129,7 @@
       </center>
       <div class="bottom-0 abosulte">
         <center class="space-y-2">
-          <p class="text-white">Copyright &#169; 2020 Saroki's Pizza</p>
-          <p class="text-white">All Rights Reserved.</p>
+         
         </center>
       </div>
     </div>

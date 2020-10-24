@@ -1,5 +1,5 @@
 <template>
-  <section v-editable="blok" class="w-full pt-10 pb-24 bg-red-600">
+  <section v-editable="blok" class="w-full pt-10 pb-24 bg-orange-600">
     <div class="max-w-screen-xl pt-10 mx-auto space-y-10 font-heron-sans">
       <!-- Todo: simplify margin bottom values and test across screen sizes -->
       <div
@@ -9,7 +9,6 @@
           <p
             class="mt-1 text-4xl font-medium leading-10 text-white uppercase sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl"
           >
-            <!-- Order Your <br class="hidden sm:block"> Saroki's Now -->
             {{ blok.title }}
           </p>
         </div>

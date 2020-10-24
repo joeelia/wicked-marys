@@ -1,7 +1,7 @@
 <template>
   <div
     v-editable="blok"
-    class="flex items-center justify-center w-full py-12 bg-red-600"
+    class="flex items-center justify-center w-full py-12 bg-orange-600"
   >
     <!-- <h3 class="text-xl font-bold text-white uppercase">sign up to receive constant deals</h3> -->
     <div class="px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:py-16 lg:px-8">

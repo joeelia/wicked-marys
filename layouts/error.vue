@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="flex flex-wrap content-center justify-center w-screen h-screen bg-red-600">
+  <div class="flex flex-wrap content-center justify-center w-screen h-screen bg-orange-600">
     <p class="font-sans text-white error-text">Opps this page doesn't exist!</p>
       </div>
     <div class="absolute bottom-0 w-screen mb-6 font-sans text-xl text-center text-white">

@@ -1,6 +1,6 @@
-# sarokis
+# wicked marys
 
-https://sarokis.netlify.app/
+https://wicked-marys.netlify.app/
 
 ## API Keys
 

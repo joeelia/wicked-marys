@@ -76,7 +76,7 @@
               <h4
                 class="text-sm font-semibold leading-5 tracking-wider text-gray-400 uppercase"
               >
-                Saroki's
+                Mary's
               </h4>
               <ul class="mt-4">
                 <li>
@@ -84,7 +84,7 @@
                     href="#"
                     class="text-base leading-6 text-gray-300 hover:text-white"
                   >
-                    Find a Saroki's
+                    Find a Mary's
                   </a>
                 </li>
                 <li class="mt-4">
@@ -170,7 +170,7 @@
       </div>
       <div class="pt-8 mt-12 border-t border-gray-700">
         <p class="text-base leading-6 text-center text-gray-400 md:text-right">
-          &copy; 2020 Saroki's Pizza. All rights reserved.
+          &copy; 2020 Wicked Marys's. All rights reserved.
         </p>
       </div>
     </div>

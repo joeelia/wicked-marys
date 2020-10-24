@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="w-full bg-red-600">
+    <section class="w-full bg-orange-600">
       <div
         class="relative flex flex-wrap items-center justify-center w-full h-auto mx-auto max-w-7xl"
       >
@@ -34,7 +34,7 @@
               </h2>
               <button
                 type="button"
-                class="hidden align-middle ml-8 lg:inline-block uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
+                class="hidden align-middle ml-8 lg:inline-block uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-orange-50 hover:bg-orange-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
               >
                 Order online
               </button>
@@ -63,7 +63,7 @@
         <div class="flex items-center justify-center w-full mb-6 lg:hidden">
           <button
             type="button"
-            class="mx-auto uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
+            class="mx-auto uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-orange-50 hover:bg-orange-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
           >
             Order online
           </button>

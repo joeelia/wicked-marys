@@ -1,7 +1,7 @@
 <template>
   <li
     v-editable="blok"
-    class="bg-red-300 bg-cover md:bg-fill"
+    class="bg-orange-300 bg-cover md:bg-fill"
     :style="
       `background-repeat: no-repeat; background-image: url(${blok.image.filename})`"
     :class="{ 'row-span-2': blok.isLarge }"
@@ -26,7 +26,7 @@
           <a v-if="blok.button_link.url !== null" target="_blank" :href="blok.button_link.url">
             <button
               type="button"
-              class="inline-flex items-center px-6 py-2 text-sm font-medium leading-5 text-white uppercase transition duration-150 ease-in-out bg-red-600 border border-transparent hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-red-700"
+              class="inline-flex items-center px-6 py-2 text-sm font-medium leading-5 text-white uppercase transition duration-150 ease-in-out bg-orange-600 border border-transparent hover:bg-orange-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-orange-700"
             >
               {{ blok.button_title  }}
             </button>
@@ -34,7 +34,7 @@
           <n-link v-else :to="blok.button_link.cached_url" prefetch>
             <button
               type="button"
-              class="inline-flex items-center px-6 py-2 text-sm font-medium leading-5 text-white uppercase transition duration-150 ease-in-out bg-red-600 border border-transparent hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-red-700"
+              class="inline-flex items-center px-6 py-2 text-sm font-medium leading-5 text-white uppercase transition duration-150 ease-in-out bg-orange-600 border border-transparent hover:bg-orange-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-orange-700"
             >
               {{ blok.button_title  }}
             </button>
