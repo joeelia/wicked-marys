@@ -26,6 +26,11 @@ export default {
        footer() {
         return this.$store.state.footer.story
       }
- }
+ },
+ head: {
+    script: [
+      { src: 'https://www.fbgcdn.com/embedder/js/ewm2.js', body:true}
+    ]
+  }
 }
 </script>

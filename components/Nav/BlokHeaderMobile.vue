@@ -33,7 +33,6 @@
     <span class="cursor-pointer" data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03" data-glf-ruid="da5cbba8-e8b2-4fd3-a14c-8085c95f1b91" id="glfButton0">
       Order Mary's
     </span> 
-    <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer="" async=""></script>
   </button>
   <div class="flex items-center">
     <button

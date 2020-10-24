@@ -19,12 +19,11 @@
         :is="blok.component | dashify"
       />
       <li class="inline-flex rounded-md shadow-sm">
-        <button id="686353761330209738" class="inline-flex items-center px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-red-600 border border-transparent hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-red-700">
+        <div id="686353761330209738" align="center" style="width: 100%; overflow-y: hidden;" class="inline-flex items-center px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-red-600 border border-transparent hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-red-700">
             <span class="cursor-pointer" data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03" data-glf-ruid="da5cbba8-e8b2-4fd3-a14c-8085c95f1b91" id="glfButton0">
-              Order Mary's
+              Order dasd
             </span> 
-            <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer="" async=""></script>
-        </button>
+        </div>
       </li>
   </ul>
 </div>

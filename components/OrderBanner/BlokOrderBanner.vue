@@ -36,7 +36,6 @@
                   <span class="cursor-pointer align-middle ml-8 lg:inline-block uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150" data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03" data-glf-ruid="da5cbba8-e8b2-4fd3-a14c-8085c95f1b91" id="glfButton0">
                     {{ blok.button_title }}
                   </span> 
-                  <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer="" async=""></script>
                 </button>
             </span>
             <span
@@ -65,7 +64,6 @@
             <span class="cursor-pointer mx-auto uppercase px-6 py-5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150" data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03" data-glf-ruid="da5cbba8-e8b2-4fd3-a14c-8085c95f1b91" id="glfButton0">
               {{ blok.button_title }}
             </span> 
-            <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer="" async=""></script>
           </button>
         </div>
       </div>
