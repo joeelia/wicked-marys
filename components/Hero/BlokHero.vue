@@ -93,8 +93,8 @@
         <div class="max-w-screen-xl px-4 mx-auto sm:px-6">
           <img
             class="relative"
-            src="~/static/food/pizzabig-even.png"
-            alt="App screenshot"
+            src="~/assets/images/hot-chicken-slider.png"
+            alt="Fresh Nashville Hot Chicken slider with pickles, boneless chicken thighs, buns and secret sauce"
           />
         </div>
       </div>
