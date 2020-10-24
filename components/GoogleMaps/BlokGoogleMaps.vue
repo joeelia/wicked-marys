@@ -39,9 +39,8 @@ export default {
         infoText: `<img class="w-48" src="${locationImage}" />
           <strong>${element.content.name}</strong>
           </br>
-          <strong>(248) 965-3106</strong>
+          <strong>${element.content.phone}</strong>
           </br>
-          <a class="text-red-600" href="#"> Order Online </a>`,
         position: {
           lat: parseFloat(element.content.latitude),
           lng: parseFloat(element.content.longitude),
