@@ -40,7 +40,7 @@ export default {
     [
       'storyblok-nuxt-routes',
       {
-        accessToken: 'NEHvar0usQ6j6jLgWojJtwtt',
+        accessToken: 'kMjMWESps5AQbQD25M4ylwtt',
         defaultLanguage: '',
         contentTypes: 'page,location',
         resolveLinks: 'url',
@@ -57,7 +57,7 @@ export default {
     [
       'storyblok-nuxt',
       {
-        accessToken: 'NEHvar0usQ6j6jLgWojJtwtt',
+        accessToken: 'kMjMWESps5AQbQD25M4ylwtt',
         cacheProvider: 'memory',
       },
     ]
