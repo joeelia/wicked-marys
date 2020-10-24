@@ -32,16 +32,12 @@
               >
                 {{ blok.title }}
               </h2>
-              <button
-                type="button"
-                class="hidden align-middle ml-8 lg:inline-block uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
-              >
-                <NuxtButton
-                  :data="blok.button_link"
-                  :title="blok.button_title"
-                  buttonStyle="hidden align-middle ml-8 lg:inline-block uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
-                />
-              </button>
+                <button id="686353761330209738" class="hidden lg:inline-block" >
+                  <span class="cursor-pointer align-middle ml-8 lg:inline-block uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150" data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03" data-glf-ruid="da5cbba8-e8b2-4fd3-a14c-8085c95f1b91" id="glfButton0">
+                    {{ blok.button_title }}
+                  </span> 
+                  <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer="" async=""></script>
+                </button>
             </span>
             <span
               class="absolute col-span-1 right-2 top-1/3 sm:top-0 sm:right-0 sm:relative sm:flex sm:items-center"
@@ -65,15 +61,11 @@
         </div>
         <!-- mobile button markup (appears below) -->
         <div class="flex items-center justify-center w-full mb-6 lg:hidden">
-          <button
-            type="button"
-            class="mx-auto uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
-          >
-            <NuxtButton
-              :data="blok.button_link"
-              :title="blok.button_title"
-              buttonStyle="mx-auto uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
-            />
+          <button id="686353761330209738" class="py-5">
+            <span class="cursor-pointer mx-auto uppercase px-6 py-5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-red-50 hover:bg-red-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150" data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03" data-glf-ruid="da5cbba8-e8b2-4fd3-a14c-8085c95f1b91" id="glfButton0">
+              {{ blok.button_title }}
+            </span> 
+            <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer="" async=""></script>
           </button>
         </div>
       </div>

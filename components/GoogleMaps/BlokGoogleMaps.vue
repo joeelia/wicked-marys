@@ -1,7 +1,7 @@
 <template>
   <section v-if="render">
     <GmapMap
-      :center="{ lat: 42.433757, lng: -83.374377 }"
+      :center="{ lat: 42.244797, lng: -83.695729 }"
       :zoom="10"
       :options="options"
       map-type-id="terrain"

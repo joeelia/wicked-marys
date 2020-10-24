@@ -26,6 +26,6 @@ export default {
        footer() {
         return this.$store.state.footer.story
       }
- },
+ }
 }
 </script>
