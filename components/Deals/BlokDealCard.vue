@@ -22,23 +22,12 @@
         <p class="text-3xl leading-none tracking-tight uppercase text-gray-50">
           {{ blok.title }}
         </p>
-        <span class="inline-flex mt-2 shadow-sm">
-          <a v-if="blok.button_link.url !== null" target="_blank" :href="blok.button_link.url">
-            <button
-              type="button"
-              class="inline-flex items-center px-6 py-2 text-sm font-medium leading-5 text-white uppercase transition duration-150 ease-in-out bg-orange-600 border border-transparent hover:bg-orange-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-orange-700"
-            >
-              {{ blok.button_title  }}
-            </button>
-          </a>
-          <n-link v-else :to="blok.button_link.cached_url" prefetch>
-            <button
-              type="button"
-              class="inline-flex items-center px-6 py-2 text-sm font-medium leading-5 text-white uppercase transition duration-150 ease-in-out bg-orange-600 border border-transparent hover:bg-orange-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-orange-700"
-            >
-              {{ blok.button_title  }}
-            </button>
-          </n-link>
+        <span class="inline-flex -mt-2 shadow-sm">
+          <button id="686353761330209738" class="py-5">
+            <span class="inline-flex items-center px-6 py-2 text-sm font-medium leading-5 text-white uppercase transition duration-150 ease-in-out bg-orange-600 border border-transparent hover:bg-orange-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-orange-700" data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03" data-glf-ruid="da5cbba8-e8b2-4fd3-a14c-8085c95f1b91" id="glfButton0">
+              {{ blok.button_title }}
+            </span> 
+          </button>
         </span>
       </div>
     </div>
