@@ -12,6 +12,6 @@
 <script>
 export default {
   name: 'BlokHeaderNav',
-  props: ['blok']
+  props: ['blok'],
 }
 </script>

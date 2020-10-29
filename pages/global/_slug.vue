@@ -1,11 +1,11 @@
 <template>
   <div>
-     <component
-        :key="blok._uid"
-        v-for="blok in story.content.body"
-        :blok="blok"
-        :is="blok.component | dashify"
-      />
+    <component
+      :key="blok._uid"
+      v-for="blok in story.content.body"
+      :blok="blok"
+      :is="blok.component | dashify"
+    />
   </div>
 </template>
 <script>
@@ -20,7 +20,7 @@ const loadData = function ({
     .get(`cdn/stories${path}`, {
       version,
       cv: cacheVersion,
-      resolve_links: 'url,story'
+      resolve_links: 'url,story',
     })
     .then((res) => {
       return res.data

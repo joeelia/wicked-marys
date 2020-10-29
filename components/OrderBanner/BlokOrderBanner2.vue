@@ -22,7 +22,9 @@
                 />
               </svg>
             </span>
-            <span class="flex items-center justify-center col-span-6 sm:col-span-4">
+            <span
+              class="flex items-center justify-center col-span-6 sm:col-span-4"
+            >
               <h2
                 class="text-4xl italic font-medium leading-loose tracking-wide text-center text-expose-red-600 md:text-5xl lg:text-6xl text-fill-white text-stroke-black font-heron-sans"
               >

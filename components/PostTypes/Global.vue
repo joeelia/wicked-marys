@@ -1,7 +1,6 @@
 <template>
   <div class="page">
-    
-      <component
+    <component
       :key="blok._uid"
       v-for="blok in blok.body"
       :blok="blok"

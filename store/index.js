@@ -1,7 +1,7 @@
 export const state = () => ({
   cacheVersion: '',
   header: {},
-  footer: {}
+  footer: {},
 })
 
 export const mutations = {

@@ -1,5 +1,5 @@
 <template>
-<div>
+  <div>
     <!-- <component
       :is="story.content.header.content.component"
       v-if="story.content.header.content.component"
@@ -12,7 +12,7 @@
       :key="story.content._uid"
       :blok="story.content"
     />
-     <!-- <component
+    <!-- <component
       :is="story.content.footer.content.component"
       v-if="story.content.footer.content.component"
       :key="story.content.footer.content._uid"
@@ -101,31 +101,31 @@ export default {
     return {
       title: this.story.content.meta.title,
       meta: [
-         {
+        {
           hid: 'description',
           name: 'description',
-          content: this.story.content.meta.og_description
+          content: this.story.content.meta.og_description,
         },
         {
           hid: 'og:title',
           name: 'og:title',
           property: 'og:title',
-          content: this.story.content.meta.og_title
+          content: this.story.content.meta.og_title,
         },
-         {
+        {
           hid: 'og:description',
           name: 'og:description',
           property: 'og:description',
-          content: this.story.content.meta.og_description
+          content: this.story.content.meta.og_description,
         },
-         {
+        {
           hid: 'og:image',
           name: 'og:image',
           property: 'og:image',
-          content: this.story.content.meta.og_image
-        }
-      ]
+          content: this.story.content.meta.og_image,
+        },
+      ],
     }
-  }
+  },
 }
 </script>

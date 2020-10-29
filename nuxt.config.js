@@ -60,13 +60,13 @@ export default {
         accessToken: 'kMjMWESps5AQbQD25M4ylwtt',
         cacheProvider: 'memory',
       },
-    ]
+    ],
   ],
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     transpile: [/^vue2-google-maps.js($|\/)/],
   },
   router: {
-    base: '/'
-  }
+    base: '/',
+  },
 }
