@@ -61,7 +61,20 @@ export default {
         cacheProvider: 'memory',
       },
     ],
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    id: 'GTM-MPMNCP6',
+    enabled: true,
+    pageTracking: true,
+    respectDoNotTrack: false,
+    pageViewEventName: 'pageview',
+  },
+  publicRuntimeConfig: {
+    gtm: {
+      id: process.env.GOOGLE_TAG_MANAGER_ID,
+    },
+  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     transpile: [/^vue2-google-maps.js($|\/)/],

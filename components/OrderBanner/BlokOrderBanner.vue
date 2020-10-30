@@ -9,7 +9,7 @@
         >
           {{ blok.title }}
         </h2>
-        <button id="686353761330209738" class="hidden lg:inline-block">
+        <button @click="clickedOrder" id="686353761330209738" class="hidden lg:inline-block">
           <span
             class="cursor-pointer align-middle ml-8 lg:inline-block uppercase px-6 py-2.5 border border-transparent text-sm leading-6 font-medium text-gray-700 hover:text-gray-600 bg-orange-50 hover:bg-orange-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white transition ease-in-out duration-150"
             data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03"
@@ -22,7 +22,7 @@
 
         <!-- mobile button markup (appears below) -->
         <div class="flex items-center justify-center w-full mb-6 lg:hidden">
-          <button id="686353761330209738" class="py-5">
+          <button @click="clickedOrder" id="686353761330209738" class="py-5">
             <span
               class="px-6 py-5 mx-auto text-sm font-medium leading-6 text-gray-700 uppercase transition duration-150 ease-in-out border border-transparent cursor-pointer hover:text-gray-600 bg-orange-50 hover:bg-orange-100 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-white"
               data-glf-cuid="3516bd06-4b16-4167-a366-16f327720e03"
@@ -43,6 +43,11 @@
 export default {
   name: 'OrderBanner',
   props: ['blok'],
+  methods: {
+    clickedOrder(){
+      this.$gtm.push({ event: 'clickedOrder' })
+    }
+  }
 }
 </script>
 

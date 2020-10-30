@@ -1244,6 +1244,14 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
+"@nuxtjs/gtm@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/gtm/-/gtm-2.3.2.tgz#7b1b9a37f8250c475007cfde1294b7b8bc43d025"
+  integrity sha512-DC4m8mqKv8WkmFZJ/qEnpDXhJgbMQfTyny1p2GGbV+QzEtm61tAsNIjx9tO15KYH99EG3LqJN68RxsEMtn2ZVQ==
+  dependencies:
+    chalk "^4.1.0"
+    semver "^7.3.2"
+
 "@nuxtjs/tailwindcss@^1.4.0":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-1.4.1.tgz#e5e3c5d382c441ce2ba01cb4674f35918d2dd53d"
