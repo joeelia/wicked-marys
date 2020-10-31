@@ -20,7 +20,8 @@
       </div>
       <div class="pt-8 mt-12 border-t border-gray-700">
         <p class="text-base leading-6 text-center text-gray-400 md:text-right">
-          &copy; 2020 Wicked Mary's Chicken. All rights reserved.
+          &copy; 2020 WICKED MARYS CHICKEN ANN ARBOR LLC. All rights reserved.
+          <nuxt-link class="font-bold text-white hover:text-gray-400" to="/privacy-policy">Privacy Policy</nuxt-link>
         </p>
       </div>
     </div>
