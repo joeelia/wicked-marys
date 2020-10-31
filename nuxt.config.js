@@ -62,6 +62,7 @@ export default {
       },
     ],
     '@nuxtjs/gtm',
+    '@nuxtjs/markdownit',
   ],
   gtm: {
     id: 'GTM-MPMNCP6',
@@ -74,6 +75,9 @@ export default {
     gtm: {
       id: process.env.GOOGLE_TAG_MANAGER_ID,
     },
+  },
+  markdownit: {
+    injected: true,
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

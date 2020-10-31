@@ -22,6 +22,7 @@ import BlokDealCard from '@/components/Deals/BlokDealCard.vue'
 import BlokFoodCarousel from '@/components/Carousel/BlokFoodCarousel.vue'
 import FoodCarouselCard from '@/components/Carousel/BlokFoodCarouselCard.vue'
 import GoogleMaps from '@/components/GoogleMaps/BlokGoogleMaps.vue'
+import Markdown from '@/components/Markdown/BlokMarkdown.vue'
 
 Vue.component('blok-page', Page)
 Vue.component('global', Global)
@@ -35,6 +36,7 @@ Vue.component('blok-deal-card', BlokDealCard)
 Vue.component('food-carousel', BlokFoodCarousel)
 Vue.component('blok-food-carousel-card', FoodCarouselCard)
 Vue.component('g-maps', GoogleMaps)
+Vue.component('markdown', Markdown)
 
 Vue.component('blok-header-nav', HeaderNav)
 Vue.component('blok-header-desktop', HeaderDesktop)
